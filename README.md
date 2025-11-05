@@ -5,3 +5,11 @@ A Python framework for portfolio construction. Runs four different factor based 
 To get started, install the dependancies using *pip*
 
 ``` pip install yfinance pandas-datareader statsmodels PyPortfolioOpt tqdm ```
+
+## Usage
+
+To change the assets considered by the alogorithm, simply alter this line to include any tickers *as they appear on the NASDAQ*
+
+``` tickers=['AAPL', 'MSFT', 'GOOGL', 'AMZN'] ```
+
+**This project is completed and the repository is archived**
